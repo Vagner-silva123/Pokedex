@@ -1,3 +1,19 @@
-h1{
-    color: red;
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.context{
+    padding: 1rem;
+    margin: 0px;
+}
+ol.pokemon{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+ol.pokemon > li{
+padding: 5px;
+margin: 5px;
+background-color: green;
 }
