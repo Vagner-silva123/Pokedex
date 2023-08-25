@@ -3,7 +3,7 @@
 }
 .context{
     padding: 1rem;
-    margin: 0px;
+   
 }
 ol.pokemon{
     display: grid;
@@ -13,7 +13,10 @@ ol.pokemon{
     margin: 0px;
 }
 ol.pokemon > li{
-padding: 5px;
-margin: 5px;
-background-color: green;
+padding:2rem 1rem;
+margin: 0.5rem;
+background-color:#48CFAF;
+color: white;
+border-radius: 1rem;
+
 }
