@@ -6,19 +6,20 @@
     padding: 1rem;
    
 }
-img{
+.pokemon details img{
     border-style: none;
     max-width: 100%;
     height: 100px;
+    align-self: flex-end;
 }
-ol.pokemon{
+.pokemons{
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
     padding: 0px;
     margin: 0px;
 }
-ol.pokemon > li{
+.pokemon{
 padding:2rem 1rem;
 margin: 0.5rem;
 background-color:#48CFAF;
