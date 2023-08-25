@@ -1,9 +1,15 @@
 *{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 .context{
     padding: 1rem;
    
+}
+img{
+    border-style: none;
+    max-width: 100%;
+    height: 100px;
 }
 ol.pokemon{
     display: grid;
@@ -18,5 +24,6 @@ margin: 0.5rem;
 background-color:#48CFAF;
 color: white;
 border-radius: 1rem;
-
+display: flex;
+flex-direction: column;
 }
